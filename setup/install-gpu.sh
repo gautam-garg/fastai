@@ -27,7 +27,7 @@ conda install -y bcolz
 conda upgrade -y --all
 
 # install and configure theano
-pip install theano
+pip install theano==0.8.2
 echo "[global]
 device = gpu
 floatX = float32
